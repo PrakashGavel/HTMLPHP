@@ -507,7 +507,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate" action="submit.php" method="post"></form>
+                        <form action="submit.php" method="post"></form>
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" name="name" required placeholder="Your Name"
@@ -532,7 +532,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                <input type="submit" value="Submit">
                                     Message</button>
                             </div>
                         </form>
